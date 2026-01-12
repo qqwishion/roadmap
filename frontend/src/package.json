@@ -1,0 +1,42 @@
+{
+  "name": "cosmic-roadmap",
+  "version": "2.0.0",
+  "description": "Космический Roadmap - интерактивная платформа для построения карьерной траектории в ракетно-космической отрасли",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "check-env": "node check-env.js",
+    "setup": "npm install && node check-env.js",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-player": "^2.16.0",
+    "lucide-react": "^0.344.0",
+    "sonner": "^1.4.3",
+    "recharts": "^2.12.7",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/react": "^18.2.61",
+    "@types/react-dom": "^18.2.19",
+    "@typescript-eslint/eslint-plugin": "^7.0.2",
+    "@typescript-eslint/parser": "^7.0.2",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.1.4"
+  }
+}
